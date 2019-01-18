@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@color/red"/>
+    <item android:state_focused="true"
+        android:drawable="@color/yellow"/>
+    <item android:drawable="@color/green"/>
+</selector>
+<!--/*    state_selected is used when an item is selected using a keyboard/dpad/trackball/etc.-->
+    <!--state_activated is used when View.setActivated(true) is called. This is used -->
+    <!--for "persistent selection" (see Settings on tablet for instance)-->
+    <!--state_pressed is used when the user is pressing the item either through touch or a keyboard or a mouse-->
+    <!--state_focused is used if the item is marked focusable and it receives
+    focus either through the user of a -->
+    <!--keyboard/dpad/trackball/etc. or if the item is focusable in touch mode*/-->
